@@ -4,5 +4,5 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "first actions!"
-      - run: exit 1
+      - run: echo "script.shのチェック"
+      - run: ./test_script.sh
